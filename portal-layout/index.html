@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Layout</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Add Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2DhKNwKvCxZt+j1k3abst5TTXDB8MIeFZbllAXfXk9j6LzLa6kDhWgFM5s4LwO7Ig==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Header Section with Background Image -->
+    <header class="header">
+        <div class="header-content">
+            <div class="welcome-info">
+                <h1>Welcome, Dianne</h1>
+                <h2>393 Russell Woods Rd</h2>
+                <p>Portal</p>
+            </div>
+            <div class="user-info">
+                <img src="https://via.placeholder.com/50?text=User" alt="User Profile" class="user-profile">
+                <p>Dianne Smith</p>
+                <p>Sunday, September 7th, 2024</p>
+            </div>
+        </div>
+        <!-- Navigation Section -->
+        <nav class="navigation">
+            <button>Photos</button>
+            <button>Updates</button>
+            <button class="red-dot">Selections</button>
+            <button>Calendar</button>
+            <button>Billing</button>
+            <button class="red-dot">Documents</button>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main class="main-content">
+        <section class="photos">
+            <h2><i class="fas fa-images"></i> Photos</h2>
+            <div class="photo-upload-options">
+                <button class="photo-button">
+                    <i class="fas fa-upload photo-icon"></i>
+                    Upload Photo
+                </button>
+                <button class="photo-button">
+                    <i class="fas fa-camera photo-icon"></i>
+                    Take Photo
+                </button>
+            </div>
+            <div class="photo-grid">
+                <div class="photo-item">
+                    <img src="https://via.placeholder.com/150x100?text=Kitchen" alt="Kitchen">
+                    <p>Kitchen (See Description)</p>
+                </div>
+                <div class="photo-item">
+                    <img src="https://via.placeholder.com/150x100?text=Foyer" alt="Foyer">
+                    <p>Foyer (See Description)</p>
+                </div>
+                <div class="photo-item">
+                    <img src="https://via.placeholder.com/150x100?text=Living+Room" alt="Living Room">
+                    <p>Living Room (See Description)</p>
+                </div>
+            </div>
+        </section>        
+        <section class="updates">
+            <h2>Updates</h2>
+            <div class="update-item">
+                <h3>Gino's Sunday Update</h3>
+                <p>Client: Michael George</p>
+                <p>Site Supervisor: Tasha</p>
+                <a href="#">9 Photos, 4 Documents</a>
+                <a href="#" class="update-action">View</a>
+            </div>
+        </section>
+        <section class="documents">
+            <h2>Documents</h2>
+            <div class="document-upload-options">
+                <button>Upload Document</button>
+                <button>Scan Document</button>
+            </div>
+            <div class="document-grid">
+                <div class="document-item">
+                    <img src="https://via.placeholder.com/150x100?text=Drawing+Update" alt="Drawing Update">
+                    <p>Drawing Update (See Description)</p>
+                </div>
+                <div class="document-item">
+                    <img src="https://via.placeholder.com/150x100?text=Rental+Equipment" alt="Rental Equipment">
+                    <p>Rental Equipment (See Description)</p>
+                </div>
+                <div class="document-item">
+                    <img src="https://via.placeholder.com/150x100?text=Purchase+Agreement" alt="Purchase Agreement">
+                    <p>Purchase Agreement (See Description)</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
